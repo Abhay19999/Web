@@ -1,0 +1,70 @@
+.header1 {
+  text-align: center;
+}
+.third-h1 {
+  padding-top: 20px;
+}
+.grid-container1 {
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-left: 40px;
+}
+.grid-card1 {
+  text-align: left;
+  margin-top: 100px;
+  width: 277px;
+  height: 277px;
+  background-color: rgb(107, 104, 104);
+  color: aliceblue;
+  border-radius: 20px;
+}
+.card-head {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.card-theory {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: 100px;
+}
+.grid-card2 {
+  /* text-align: center; */
+  margin-top: 100px;
+  width: 277px;
+  height: 277px;
+  background-color: honeydew;
+  border-radius: 20px;
+}
+.third-btn {
+  margin: 5%;
+  background-color: #32c5ff;
+  height: 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100px;
+  margin-right: 100px;
+  border: n;
+}
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+  word-break: break-all;
+  z-index: 21;
+}
+footer p {
+  margin-left: 150px;
+  padding: 20px;
+}
+@media (max-width: 1100px) {
+  .grid-container1 {
+    grid-template-columns: auto;
+  }
+}
